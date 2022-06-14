@@ -5,104 +5,144 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="JavaScript Developer - Denis - html, css, javaScript, ...">
-    <meta name="description" content="Это сайт резюме (упаковка) моей личности и хард скилов">
-    <title>Denis's resume</title>
+    <meta name="description" content="Это сайт реземе(упаковка) моей личности и хард скилов">
+    <title>Denis' rusume</title>
+
+    <link rel="stylesheet" href="111.css">
+
 </head>
 
 <body>
-    <img src="img/111.jpg" alt="Тут должно находится мое фото, но его нет =)" width="300">
-    
-    <h1>Денис Хрисанфов</h1>
-    <h3>Frontend Developer Junior<strong>+</strong></h3>
-    <hr>
+    <div class="container">
+        
+            <div class="info">
+                <div class="center777">
+                <img src="img/111.jpg" alt="Тут должно находится мое фото, но его нет =)" width="250" class="photo">
 
-    <p>Являюсь джуниор <strong>Web</strong> разработчиком, пишу на чистом <strong> JavaScript </strong>, знаю основы <strong>HTML</strong> и<strong> CSS</strong>.
-        <br>Владею такими фреймворками, как:
-        <ul>
-            <li><strong>React</strong></li>
-            <li><strong>Angular</strong></li>
-            <li><strong>Vue</strong></li>
-            <li><strong>Meteor</strong></li>
-            <li><strong>Node.js</strong></li>
-            <li><strong>React Native</strong></li>
-            <li><strong>Cordova</strong></li>
-        </ul>
-        Своими силами разработал <strong>два Full-stack проекта</strong>, в результате которых были написанны приложения для Web и Mobile.
-        <br>Понимаю принципы <em>UX/UI дизайна</em> и <em>Machine learning</em>.</p> 
+                <div class="info-text">
+                    <h1 class="name h44">Денис Хрисанфов</h1>
+                    <h3 class="name h33">Frontend Developer Junior<strong>+</strong></h3>
+                </div>
+                </div>
 
-    <p>Люблю путешестовавать, заниматься спортом, кататься на сноуборде и ходить в пешие походы.<br><em>Но програмировать люблю больше</em> =) </p>
+                <div class="border-info">
+                    <p>Являюсь джуниор <strong>Web</strong> разработчиком, пишу на чистом <strong> JavaScript </strong>, знаю основы <strong>HTML</strong> и<strong> CSS</strong>.</p>
+                        <p>Владею такими фреймворками, как:</p>
+                        <ol class="list">
+                            <li><strong>React</strong></li>
+                            <li><strong>Angular</strong></li>
+                            <li><strong>Vue</strong></li>
+                            <li><strong>Meteor</strong></li>
+                            <li><strong>Node.js</strong></li>
+                            <li><strong>React Native</strong></li>
+                            <li><strong>Cordova</strong></li>
+                        </ol>
+                        <p>Своими силами разработал два<strong> Full-stack</strong> проекта, в результате которых были написанны приложения для Web и Mobile.
+                        <br>Понимаю принципы <em>UX/UI дизайна</em> и <em>Machine learning</em>.</p> 
 
-    <h3>Список социальных сетей:</h3>
-    <a href="https://t.me/Mr_Den26" target = "_blank">Telegram</a>
-    <strong>|</strong>
-    <a href="https://vk.com/denisengineer" target = "_blank">Вконтакте</a>
+                    <p>Люблю путешестовавать, заниматься спортом, кататься на сноуборде и ходить в пешие походы.<br><em>Но програмировать люблю больше</em> =) </p>
+                    <br>
+                    <div class="spans15">
+                    <strong>Список социальных сетей:</strong>
+                    <span class="spans"></span>
+                    <a class="links" href="https://t.me/Mr_Den26" target = "_blank">Telegram</a>
+                    <strong>|</strong>
+                    <a class="links" href="https://vk.com/denisengineer" target = "_blank">Вконтакте</a>
+                    </div>
+                </div>
+            
+            </div>
 
-    <h2>Experience</h2>
-    <table border="2" width="700">
-        <thead>
-        <tr>
-            <th>Название</th>
-            <th>Ключевые навыки для разработки</th>
-            <th>Срок</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Национальный исследовательский Южно-Уральский университет</td>
-            <td>Системы управления летательными аппаратами, понимание основ, програмирование</td>
-            <td>4,5 года</td>
-        </tr>
-        <tr>
-            <td>Федеральная сеть ночных баров</td>
-            <td>Продажи, работа в команде, kpi</td>
-            <td>4 года</td>
-        </tr>
-        <tr>
-            <td>Онлайн школы по програмированию и инвестициям</td>
-            <td>Маркетинг</td>
-            <td>1 год</td>
-        </tr>
-        <tr>
-            <td>Обучение</td>
-            <td>Web разработка, 2 самостоятельных проекта</td>
-            <td>1 год</td>
-        </tr>
-        </tbody>
-    </table>
 
-    <hr>
-    <h2>Связаться со мной</h2>
-    
-    <form>
-        <div>
-            <label for="text">Ваше имя</label>
-            <input type="text" id="text" placeholder="Введите имя">
-        </div>
-    
-        <div>
-            <label for="email">Ваш Email</label>
-            <input type="email" id="email" placeholder="Почта @mail">
-        </div>
 
-        <div>
-            <label for="position">Ваша должность</label>
-            <select id="position">
-                <option value="hr" selected>HR - менеджер</option>
-                <option value="TeamLead">Team Lead</option>
-                <option value="it">IT рекрутер</option>
-                <option value="proger">Web разработчик</option>
-                <option value="new">Новичек в IT</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="message3">Ваше сообщение:</label>
-            <br>
-            <textarea id="message3" cols="50" rows="7">Здравствуйте, </textarea>
-        </div>
-        <br>
-        <button type="submit">Отправить форму</button>
-    </form>
 
+
+
+            <div class="border-center">
+                            <h2>Experience</h2>
+                            <table class="table" border="0" width="500">
+                                <thead>
+                                <tr>
+                                    <th>Название</th>
+                                    <th>Ключевые навыки для разработки</th>
+                                    <th>Срок</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>Национальный исследовательский Южно-Уральский университет</td>
+                                    <td>Системы управления летательными аппаратами, понимание основ, програмирование</td>
+                                    <td>4,5 года</td>
+                                </tr>
+                                <tr>
+                                    <td>Федеральная сеть ночных баров</td>
+                                    <td>Продажи, работа в команде, kpi</td>
+                                    <td>4 года</td>
+                                </tr>
+                                <tr>
+                                    <td>Онлайн школы по програмированию и инвестициям</td>
+                                    <td>Маркетинг</td>
+                                    <td>1 год</td>
+                                </tr>
+                                <tr>
+                                    <td>Обучение</td>
+                                    <td>Web разработка, 2 самостоятельных проекта</td>
+                                    <td>1 год</td>
+                                </tr>
+                                </tbody>
+                            </table>
+            </div>
+            
+            
+
+
+
+            <div class="border-end">
+            
+
+                    <h2>Связаться со мной</h2>
+                    
+                    <form class="forms">
+
+
+                        <div class="plus2">
+                        <div class="plus">
+                            <label for="text">Ваше имя:</label>
+                            <input type="text" id="text" placeholder="Введите имя">
+                        </div>
+                    
+                        <div class="plus">
+                            <label for="email">Ваш Email:</label>
+                            <input type="email" id="email" placeholder="Почта @mail">
+                        </div>
+                        </div>
+
+
+
+
+                        <div>
+                            <label for="position">Ваша должность (выбрать)</label>
+                            <select id="position">
+                                <option value="hr" selected>HR - менеджер</option>
+                                <option value="TeamLead">Team Lead</option>
+                                <option value="it">IT рекрутер</option>
+                                <option value="proger">Web разработчик</option>
+                                <option value="new">Новичек в IT</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="message3">Ваше сообщение:</label>
+                    
+                            <div class="textarea-block1"></div>
+                            <textarea id="message3" cols="5" rows="5">Здравствуйте, </textarea>
+                            <div class="textarea-block2"></div>
+                        </div>
+                        
+                        <button class="btn" type="submit">Отправить форму</button>
+                    </form>
+
+            </div>
+     </div>
 </body>
 </html>
