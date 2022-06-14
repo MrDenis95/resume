@@ -1,0 +1,282 @@
+/*h3 {
+    color: red;
+}*/
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,300&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+.container {
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 450;
+
+    /* color: #3fc51a; */
+    background: #7a7a7a;
+    padding-top: 30px;   
+}
+
+body p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.name {
+    font-family: 'Lato', sans-serif;
+    color:#fff700;
+
+}
+
+.h33 {
+    margin-top: 0px;
+    border-bottom: 2px solid #fff700;
+    text-align: center;
+    box-shadow: 0px 0px 20px 1px #fff700;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.h44 {
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+
+.photo {
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px #fff700;
+    /*display:inline-block;*/
+}
+
+.info-text {
+    /*display: inline-block;*/
+}
+
+.border-info {
+    border: 3px solid #fff700;
+    border-radius: 15px;
+    background-color: #444444;
+    margin-bottom: 25px;
+    padding: 15px;
+    padding-top: 0px;
+    color: #ffffff;
+
+    /*box-sizing: border-box;
+    display: inline-block;
+    width: 50%;*/
+}
+
+
+
+
+.info-text p {
+    font-weight:normal;
+}
+
+
+
+
+.border-end {
+    border: 2px solid rgb(179 255 0);
+    border-radius: 15px;
+    background-color: #444444;
+    margin-bottom: 25px;
+    padding: 15px;
+    padding-top: 0px;
+    color: #ffffff;
+}
+
+.border-end h2 {
+    color: rgb(179 255 0);
+    text-align: center;
+}
+
+
+
+.border-center {
+    border: 4px solid orange;
+    border-radius: 15px;
+    background-color: #444444;
+    margin-bottom: 25px;
+    padding: 15px;
+    padding-top: 0px;
+    color: #ffffff;
+}
+
+.border-center h2 {
+    color: orange;
+    /*text-align: center;*/
+}
+
+
+.spans {
+    margin-left: 5px;
+}
+
+.spans15 {
+    display: inline-block;
+}
+.links {
+    font-family: serif;
+    text-decoration: none;
+    font-size: large;
+    color: yellow;
+    background:#7a7a7a;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+.links:hover {
+    opacity: .5;
+}
+.links:visited {
+    color: yellow;
+    
+}
+.links:active {
+    color: orange;
+}
+
+.btn {
+    background-color: #444444;
+    padding: 10px 15px;
+    color:rgb(179 255 0);
+    border: 5px solid rgb(179 255 0);
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: large;
+    font-family: inherit;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+
+    display: block;
+    margin: auto;
+}
+
+.btn:hover {
+    /*opacity: .5;*/
+    color: rgb(179 255 0);
+    font-weight: bolder;
+    box-shadow: 0 0 30px 0px rgb(179 255 0);
+}
+
+.table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+.table td {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.table th {
+    padding: 10px;
+    background: rgb(178, 116, 0);
+}
+
+.table td:nth-child(even) {
+    border-left:3px solid orange;
+    border-right:3px solid orange;
+    color: orange;
+}
+
+.table th:nth-child(even) {
+    border-left:3px solid orange;
+    border-right:3px solid orange;
+}
+
+.list {
+    padding: 0px;
+    margin: 10px;
+    padding-inline-start: 25px;
+}
+
+.list li {
+    margin-bottom: 3px;
+}
+
+
+
+.forms label{
+    box-sizing: border-box;
+    border: none;
+    margin-right: 10px;
+    font-size: large;
+}
+
+.forms label,
+.forms input {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.forms input,
+.forms select,
+.forms textarea {
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    color: #ffffff;
+    width: 45%;
+    border-bottom: 2px solid rgb(179 255 0);
+    outline: none;
+    box-shadow: 0 0 7px 1px rgb(179 255 0);
+    font-size:medium;
+    margin-bottom: 15px;
+}
+
+.forms select {
+    color: rgb(179 255 0);
+    width:25%;
+    font-family: 'Roboto';
+}
+
+.forms textarea {
+    width: 50%;
+    margin-top: -30px;
+    font-family: 'Roboto';
+    display: inline-block;
+}
+
+.textarea-block1,
+.textarea-block2 {
+    width:25%;
+    display: inline-block;
+}
+
+
+
+.plus {
+    display: inline-block;
+    width:49%;
+
+}
+
+.plus input {
+    width: 85%;
+}
+
+.plus2 label {
+    display: block;
+}
+
+.plus2 {
+    margin-bottom: 10px;
+}
+
+.center777 {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.info-text {
+    margin-left: 30px;
+    padding-top: 25%;
+}
