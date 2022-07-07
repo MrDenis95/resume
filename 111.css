@@ -8,7 +8,7 @@
 
 .container {
     max-width: 800px;
-    min-width: 350px;
+    /*min-width: 350px;*/
     margin: auto;
 }
 
@@ -40,6 +40,7 @@ body p {
     box-shadow: 0px 0px 20px 1px #fff700;
     margin-top: 15px;
     margin-bottom: 0px;
+    border-radius: 10px;
 }
 .h44 {
     margin-bottom: 3px;
@@ -55,6 +56,7 @@ body p {
 .info-text {
     /*display: inline-block;*/
 }
+
 
 .border-info {
     border: 3px solid #fff700;
@@ -230,11 +232,12 @@ body p {
     box-shadow: 0 0 7px 1px rgb(179 255 0);
     font-size:medium;
     margin-bottom: 15px;
+    border-radius: 5px;
 }
 
 .forms select {
     color: rgb(179 255 0);
-    width:25%;
+    width:30%;
     font-family: 'Roboto';
 }
 
@@ -279,4 +282,60 @@ body p {
 .info-text {
     margin-left: 30px;
     padding-top: 25%;
+}
+
+@media (max-width: 630px) {
+
+    .center777 {
+        display: block;
+    }
+
+    .info-text {
+        margin-left: 15px;
+        padding-top: 0%;
+    }
+
+    .h33 {
+        width: 270px;
+    }
+
+    .border-center {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .forms textarea {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 80%;
+    }
+    .textarea-block1, .textarea-block2 {
+        width: 10%;
+    }
+
+    .forms select {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 500px) {
+    body {
+        font-size: 15px;
+    }
+    .strong {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .plus {
+        display: block;
+        width: 80%;
+    }
+}
+
+option {
+    background-color: #444444;
 }
